@@ -86,5 +86,15 @@ export default [
 		type: "checkbox",
 		answers: ["int", "string", "boolean", "char", "short", "double"],
 		answer: [0, 1, 2]
-	}
+	},
+	{
+		question: "Какие варианты подключения скрипта являются корректными с точки зрения современного стандарта HTML?",
+		type: "checkbox",
+		answers: [
+			"<script type='text/javascript' src='my.js'></script>",
+			"<script src='my.js'></script>",
+			"<script src='my.js'/>",
+			"<хачу-javascript отсюда='my.js'>"
+		],
+		answer: [0, 1]
 ]
