@@ -97,4 +97,5 @@ export default [
 			"<хачу-javascript отсюда='my.js'>"
 		],
 		answer: [0, 1]
+	}
 ]
